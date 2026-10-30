@@ -1,0 +1,5 @@
+# Mengabaikan environment variables
+.env
+
+# Mengabaikan folder cache bawaan Python
+__pycache__/
