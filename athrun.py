@@ -15,9 +15,6 @@ API_URL = "https://graphql.anilist.co"
 
 waktu_sekarang = int(time.time())
 waktu_besok = waktu_sekarang + 86400
-
-# 1. Kita ubah perPage jadi 25 agar jaring pencariannya lebih luas
-# 2. Kita tambahkan 'popularity' di dalam laci 'media'
 query_anilist = '''
 query ($awal: Int, $akhir: Int) {
   Page(page: 1, perPage: 60) {
