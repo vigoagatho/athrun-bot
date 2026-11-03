@@ -2,8 +2,8 @@ name: Anime Tracker Bot
 
 on:
   schedule:
-    # Menjalankan script setiap jam 01:00 UTC (Sama dengan jam 08:00 WIB)
-    - cron: "44 1 * * *"
+    # Menjalankan script M - H - D - M (Timezone UTC+0)
+    - cron: "37 23 * * *"
   workflow_dispatch: # Mengizinkan kita mengeksekusi bot secara manual via tombol di web
 
 jobs:
